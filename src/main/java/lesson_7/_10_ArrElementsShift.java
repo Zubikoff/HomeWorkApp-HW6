@@ -2,7 +2,7 @@ package lesson_7;
 
 public class _10_ArrElementsShift {
     public static int[] method10(int[] arr, int n) {
-        int newPos = 0, mem1,  mem2, step = 0;
+        int newPos, mem1,  mem2, step = 0;
         boolean direction = true;
         if (n < 0) {
             direction = false;
@@ -41,7 +41,7 @@ public class _10_ArrElementsShift {
     }
 
     public static int[] method10_2(int[] arr, int n) {
-        int newPos = 0, mem1,  mem2, step = 0;
+        int newPos, mem1,  mem2, step = 0;
         n = n % arr.length;
         if (n < 0) {
             n = arr.length + n;
