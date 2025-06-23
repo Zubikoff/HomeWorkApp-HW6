@@ -1,7 +1,5 @@
 package lesson_8;
 
-import java.util.Random;
-
 public class Employee {
     private String fullName, position, email, phone;
     private int salary, age;
