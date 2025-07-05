@@ -11,7 +11,7 @@ public class OutputEmployee {
         empArr[4] = new Employee("Evgniy Evgeniev", "HR", "evgenevgen@gmail.com", "+375111235476", 1000, 28);
 
         for (Employee emp : empArr) {
-            if (emp.getAge() > 40) emp.Info();
+            if (emp.getAge() > 40) emp.info();
         }
     }
 }

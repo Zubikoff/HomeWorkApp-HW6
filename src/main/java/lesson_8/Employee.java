@@ -15,7 +15,7 @@ public class Employee {
             this.age = age;
     }
 
-    public void Info() {
+    public void info() {
         System.out.println("Employee name: " + this.fullName + ". Position: " + this.position + ". Email: " + this.email + ". Phone: " + this.phone + ". Age: " + this.age + ". Salary: " + this.salary);
     }
 
