@@ -7,7 +7,8 @@ public class Park {
 
     public class Attraction {
         public String name;
-        public int worksFrom, worksUntil;
+        public int worksFrom;
+        public int worksUntil;
         public double ticketCost;
 
         public Attraction(String name, int worksFrom, int worksUntil, double ticketCost) {
