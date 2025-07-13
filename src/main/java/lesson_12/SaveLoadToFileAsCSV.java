@@ -61,7 +61,7 @@ public class SaveLoadToFileAsCSV {
                         row[i] = Integer.parseInt(strData[i]);
                     }
                     catch (NumberFormatException e) {
-                        System.out.println("При чтении числа под номером " + i + " строки " + rowNumber + " из файла произошла ошибка: " + e.getMessage());
+                        System.out.println("While reading number on position " + i + " in row " + rowNumber + " from the file an error occurred " + e.getMessage());
                         row[i] = 0;
                     }
                 }
